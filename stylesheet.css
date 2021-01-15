@@ -171,7 +171,26 @@ img {
 
 /* tablet screen style */
 @media screen and (min-width: 768px) {
+  .firts-section {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "firts-article second-article"
+    "firts-article third-article";
+    height: 60vh;
+  }
 
+  .firts-article-firts-section {
+    grid-area: firts-article;
+  }
+
+  .second-article-firts-section {
+    grid-area: second-article;
+  }
+
+  .third-article-firts-section {
+    grid-area: third-article;
+  }
 }
 
 /* desktop screen style */
