@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+/* reset CSS "start" */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +12,12 @@
   --gray-color: #e4e4e4;
   --gray-two: #cccccc;
   --gray-three: #333333;
+  --gray-four: #aaaaaa;
   --black-one: #131313;
   --black-two: #42424210;
   --transparent-white: #ffffff00;
   --orange-color: #e43500;
+  --ubuntu-font: 'Ubuntu', sans-serif;
 }
 
 *,
@@ -29,6 +33,8 @@ body {
 img {
   width: 100%;
 }
+
+/* reset CSS "end" */
 
 /* mobile screen style */
 .header-page{
@@ -141,7 +147,7 @@ img {
 .title-firts-article-firts-section {
   color: white;
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: var(--ubuntu-font);
 }
 
 .padding-1 {
@@ -167,6 +173,150 @@ img {
 
 .padding-bottom-dot-2 {
   padding-bottom: 0.2rem;
+}
+
+.second-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, auto);
+  grid-gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.title-second-section {
+  margin-top: 2rem;
+}
+
+.text-title-second-section {
+  color: var(--orange-color);
+  font-family: var(--ubuntu-font);
+  font-size: 1.7rem;
+  letter-spacing: -1px;
+}
+
+.text-title-second-section:hover {
+  color: var(--black-one);
+}
+
+.arrow-right-title {
+  font-size: 1.2rem;
+}
+
+.picture-1-article-second-section {
+  background-image: url(assets/pic-1ts-article-2nd-section.png);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-2-article-second-section {
+  background-image: url(assets/pic-2nd-article-2nd-section.webp);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-3-article-second-section {
+  background-image: url(assets/pic-1-firts-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-4-article-second-section {
+  background-image: url(assets/pic-4th-article-2nd-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-5-article-second-section {
+  background-image: url(assets/pic-2-firts-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-6-article-second-section {
+  background-image: url(assets/pic-3-firts-section.webp);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-7-article-second-section {
+  background-image: url(assets/pic-7th-article-2nd-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-8-article-second-section {
+  background-image: url(assets/pic-8th-article-2nd-section.webp);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.info-firts-article-second-section {
+  padding: 0.5rem;
+}
+
+.title-info-firts-article-second-section {
+  font-family: var(--ubuntu-font);
+  text-decoration: none;
+  color: var(--black-one);
+}
+
+.title-info-firts-article-second-section:hover {
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+  color: var(--orange-color);
+}
+
+.text-info-firts-article-second-section {
+  color: var(--gray-four);
+  position: relative;
+  top: 0.3rem;
+}
+
+.dash-point-second-section {
+  font-size: 0.3rem;
+  position: relative;
+  bottom: 0.19rem;
+  left: 0.09rem;
+}
+
+.autor-firts-article-second-section {
+  color: var(--gray-four);
+  text-decoration: none;
+}
+
+.autor-firts-article-second-section:hover {
+  color: var(--gray-three);
 }
 
 /* tablet screen style */
