@@ -17,6 +17,9 @@
   --black-two: #42424210;
   --transparent-white: #ffffff00;
   --orange-color: #e43500;
+  --orange-two: #ff4422;
+  --orange-three: rgba(255,68,34,.08);
+  --orange-four: #fffaf8;
   --ubuntu-font: 'Ubuntu', sans-serif;
 }
 
@@ -317,6 +320,167 @@ img {
 
 .autor-firts-article-second-section:hover {
   color: var(--gray-three);
+}
+
+.third-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.fourth-article-third-section {
+  display: none;
+}
+
+.title-third-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.p-title-second-section {
+  line-height: 2rem;
+  color: var(--orange-color);
+  font-size: 0.9rem;
+}
+
+.p-title-second-section:hover {
+  color: var(--black-one);
+}
+
+.line-height-2rem {
+  line-height: 2rem;
+}
+
+.firts-article-third-section {
+  position: relative;
+}
+
+.second-article-third-section {
+  position: relative;
+}
+
+.third-article-third-section {
+  position: relative;
+}
+
+.fourth-article-third-section {
+  position: relative;
+}
+
+.pic-1-firts-article-third-section {
+  height: 60px;
+  width: 60px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  background-image: url(assets/pic-1-firts-article-third-section.webp);
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.pic-2-firts-article-third-section {
+  height: 60px;
+  width: 60px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  background-image: url(assets/pic-2-firts-article-third-section.webp);
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.pic-3-firts-article-third-section {
+  height: 60px;
+  width: 60px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  background-image: url(assets/pic-3-firts-article-third-section.webp);
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.pic-4-firts-article-third-section {
+  height: 60px;
+  width: 60px;
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  background-image: url(assets/pic-4-firts-article-third-section.jpg);
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+}
+
+.title-firts-article-third-section {
+  background-color: var(--orange-two);
+  color: white;
+  padding: 10.7px 16px 10.7px 84px;
+}
+
+.subtitle-firts-article-third-section {
+  background-color: var(--orange-three);
+  padding: 10.7px 16px 10.7px 84px;
+}
+
+.subtitle-2-firts-article-third-section {
+  text-transform: uppercase;
+  color: black;
+  opacity: 0.5;
+  font-size: 0.7rem;
+}
+
+.body-firts-article-third-section {
+  background-color: var(--orange-four);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.line-body-firts-article-third-section {
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.icons-firts-article-third-section {
+  font-size: 1.3rem;
+  padding-right: 0.8rem;
+  cursor: pointer;
+}
+
+.text-icons-firts-article-third-section {
+  text-decoration: none;
+  color: var(--gray-three);
+}
+
+.text-icons-firts-article-third-section:hover {
+  color: black;
+}
+
+.footer-firts-article-third-section {
+  background-color: var(--orange-four);
+  border-top: 1px solid rgba(255,68,34,.25);
+  padding: 1rem;
+}
+
+.text-footer-firts-article-third-section {
+  text-decoration: none;
+  color: #555555;
+}
+
+.another-text-footer-firts-article-third-section {
+  color: #aaaaaa;
 }
 
 /* tablet screen style */
