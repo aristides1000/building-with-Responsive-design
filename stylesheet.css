@@ -483,18 +483,6 @@ img {
   color: #aaaaaa;
 }
 
-.container4 {
-  position: relative;
-  text-align: left;
-  color: white;
-}
-
-.bottom-left4 {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
 /* tablet screen style */
 @media screen and (min-width: 768px) {
   .firts-section {
