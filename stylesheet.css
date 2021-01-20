@@ -733,6 +733,115 @@ img {
   margin-bottom: 1.2rem;
 }
 
+.fifth-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, auto);
+  grid-gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.second-text-title-fifth-section {
+  display: none;
+  margin-left: auto;
+}
+
+.picture-1-article-fifth-section {
+  background-image: url(assets/pic-1-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-2-article-fifth-section {
+  background-image: url(assets/pic-2-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-3-article-fifth-section {
+  background-image: url(assets/pic-3-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-4-article-fifth-section {
+  background-image: url(assets/pic-4-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-5-article-fifth-section {
+  background-image: url(assets/pic-5-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-6-article-fifth-section {
+  background-image: url(assets/pic-6-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-7-article-fifth-section {
+  background-image: url(assets/pic-7-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.picture-8-article-fifth-section {
+  background-image: url(assets/pic-8-article-fifth-section.jpg);
+  height: 75px;
+  width: 75px;
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.text-info-firts-article-fifth-section {
+  color: var(--gray-four);
+  position: relative;
+  top: 0.3rem;
+  text-decoration: line-through;
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+.text-2-info-firts-article-fifth-section {
+  position: relative;
+  top: 0.3rem;
+  color: #555555;
+  font-size: 14px;
+}
+
 /* tablet screen style */
 @media screen and (min-width: 768px) {
   .firts-section {
