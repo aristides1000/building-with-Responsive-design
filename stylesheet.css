@@ -153,6 +153,10 @@ img {
   font-family: var(--ubuntu-font);
 }
 
+.title-firts-article-firts-section:hover {
+  box-shadow: inset 0 -1px 0 hsla(0,0%,100%,.3);
+}
+
 .padding-1 {
   padding: 0.7rem;
 }
@@ -481,6 +485,252 @@ img {
 
 .another-text-footer-firts-article-third-section {
   color: #aaaaaa;
+}
+
+.fourth-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(9, auto);
+  grid-gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.text-pic-1-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-1-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-2-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-2-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-3-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-3-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-4-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-4-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-5-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-5-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-6-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-6-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-7-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-7-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-8-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-8-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.text-pic-9-firts-article-fourth-section {
+  background-image: linear-gradient(to bottom, var(--black-two), var(--black-one)),
+  url(assets/pic-9-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  cursor: pointer;
+  height: 450px;
+  border-bottom: 3px solid white;
+}
+
+.padding-bottom-1-dot-5-rem {
+  padding-bottom: 1.5rem;
+}
+
+.text-most-popular {
+  font-size: 13px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: white;
+}
+
+.subtitle-firts-article-fourth-section {
+  display: flex;
+  background-color: rgba(255,68,34,.06);
+  padding: 10px 14px 0;
+}
+
+.pic-1-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-1-subtitle-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-2-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-2-subtitle-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-3-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-3-subtitle-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-4-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-4-subtitle-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-5-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-5-subtitle-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-6-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-6-subtitle-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-7-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-7-subtitle-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-8-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-8-subtitle-fourth-section.jpg);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.pic-9-subtitle-firts-article-fourth-section {
+  background-image: url(assets/pic-9-subtitle-fourth-section.webp);
+  background-size: cover;
+  background-position: 50%;
+  cursor: pointer;
+  height: 96px;
+  width: 96px;
+  flex-shrink: 0;
+}
+
+.color-orange-two {
+  color: var(--orange-two);
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.color-orange-two-hover:hover {
+  color: var(--orange-two);
+}
+
+.text-item-text-firts-article-fourth-section {
+  padding-left: 8px;
+  font-size: 13px;
+  color: #555555;
+}
+
+.text-item-text-firts-article-fourth-section:hover {
+  color: black;
+}
+
+.item-text-firts-article-fourth-section {
+  padding: 6px 0;
+  cursor: pointer;
+  border-bottom: 2px solid #eeeeee;
+}
+
+.items-text-firts-article-fourth-section {
+  margin-bottom: 1.2rem;
 }
 
 /* tablet screen style */
