@@ -43,7 +43,7 @@ img {
 .header-page{
   display: grid;
   grid-template-columns: 6.5rem 1fr;
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   box-shadow: 0 0 32px rgba(0,0,0,.15);
@@ -75,7 +75,7 @@ img {
   align-items: center;
 }
 
-.bottom-navbar-list li + li {
+.bottom-navbar-list {
   border-left: 1px solid var(--gray-two);
 }
 
@@ -940,6 +940,100 @@ img {
 
 /* tablet screen style */
 @media screen and (min-width: 768px) {
+  .top-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-page{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "logo top-navbar"
+    "logo bottom-navbar";
+    height: 80px;
+  }
+
+  .logo-image{
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+
+  .logo-navbar {
+    grid-area: logo;
+  }
+
+  .top-navbar {
+    grid-area: top-navbar;
+    background-color: black;
+  }
+
+  .bottom-navbar {
+    grid-area: bottom-navbar;
+  }
+
+  .items-top-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .firts-item-top-navbar {
+    padding-left: 1.35rem;
+  }
+
+  .item-top-navbar {
+    padding-left: 0.85rem;
+  }
+
+  .link-firts-item-top-navbar {
+    color: white;
+    text-decoration: none;
+  }
+
+  .link-item-top-navbar {
+    color: #aaaaaa;
+    text-decoration: none;
+  }
+
+  .link-item-top-navbar:hover {
+    color: white;
+  }
+
+  .last-item-top-navbar {
+    padding-right: 1.35rem;
+    padding-left: 0.85rem;
+  }
+
+  .items-bottom-navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .firts-item-bottom-navbar {
+    padding: 0 0.85rem 0 1.5rem;
+  }
+
+  .item-bottom-navbar {
+    padding: 0 0.5rem;
+  }
+
+  .link-item-bottom-navbar {
+    color: #aaaaaa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .link-item-bottom-navbar:hover {
+    color: black;
+  }
+
+  .icon-menu-outline {
+    display: none;
+  }
+
   .firts-section {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: repeat(2, 1fr);
