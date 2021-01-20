@@ -43,13 +43,13 @@ img {
 .header-page{
   display: grid;
   grid-template-columns: 6.5rem 1fr;
-  left: 0;
   position: fixed;
-  right: 0;
   top: 0;
-  z-index: 10;
-  background: #fff;
+  left: 0;
   box-shadow: 0 0 32px rgba(0,0,0,.15);
+  z-index: 10;
+  right: 0;
+  background: white;
   height: 48px;
 }
 
