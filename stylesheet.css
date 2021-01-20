@@ -43,6 +43,14 @@ img {
 .header-page{
   display: grid;
   grid-template-columns: 6.5rem 1fr;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0,0,0,.15);
+  height: 48px;
 }
 
 .logo-navbar {
@@ -106,6 +114,7 @@ img {
   grid-template-rows: repeat(3, 136px);
   grid-gap: 0.5rem;
   margin: 0.5rem;
+  padding-top: 3rem;
 }
 
 .firts-article-firts-section {
