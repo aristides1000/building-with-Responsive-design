@@ -1472,6 +1472,22 @@ img {
     font-weight: bold;
   }
 
+  .third-part-footer-page {
+    flex-direction: row;
+  }
+
+  .text-1-third-part-footer-page {
+    padding-right: 0.2rem;
+  }
+
+  .text-3-third-part-footer-page {
+    padding-left: 0.2rem;
+  }
+
+  .icon-firts-part-footer-page {
+    margin: 0 0.5rem;
+  }
+
 }
 
 /* desktop screen style */
