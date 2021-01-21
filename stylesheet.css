@@ -1574,7 +1574,7 @@ img {
     font-weight: bolder;
   }
 
-  .title-firts-article-firts-section {
+  .title-firts-1-article-firts-section {
     font-size: 2.5rem;
   }
 
@@ -1614,6 +1614,17 @@ img {
   .fourth-article-third-section {
     grid-area: fourth-article-third-section;
     display: block;
+  }
+
+  .fourth-section {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "firts-article-fourth-section second-article-fourth-section third-article-fourth-section"
+    "fourth-article-fourth-section fifth-article-fourth-section sixth-article-fourth-section"
+    "seventh-article-fourth-section eighth-article-fourth-section nineth-article-fourth-section";
+    max-width: 1152px;
+    margin: auto;
   }
 
 }
