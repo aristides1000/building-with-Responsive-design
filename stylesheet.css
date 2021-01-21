@@ -1593,4 +1593,27 @@ img {
     margin: auto;
   }
 
+  .third-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+    "title-third-section title-third-section title-third-section title-third-section"
+    "firts-article-third-section second-article-third-section third-article-third-section fourth-article-third-section";
+    max-width: 1152px;
+    margin: auto;
+  }
+
+  .title-third-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 1.2rem;
+    align-items: center;
+  }
+
+  .fourth-article-third-section {
+    grid-area: fourth-article-third-section;
+    display: block;
+  }
+
 }
