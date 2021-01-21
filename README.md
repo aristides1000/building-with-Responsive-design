@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# News Information Page - The New York Times Clone
+# News Information Page - The Next Web Clone Clone
 
 > We created a clone of a view of The New York Times portal from scratch.
 ![screenshot](./app_screenshot.png)
 
-Smashing Magazine Clone
-This web page was project number 5 of the microverse curriculum.
-In this project we try to show the visual importance of the elements contained in it.
+The Next Web Clone
+This web page was project number 6 of the microverse curriculum.
+In this project we try to show the visual importance of portals with responsive features.
 
 ## Built With
 
@@ -20,11 +20,11 @@ In this project we try to show the visual importance of the elements contained i
 
 ## Live Demo
 
-[Live Demo Link](https://aristides1000.github.io/design-teardown/)
+[Live Demo Link](https://aristides1000.github.io/building-with-Responsive-design/)
 
 ## Getting Started
 
-This project was created with the purpose of studying the importance of the visual weight of the elements on a web page and its influence to capture the attention of users.
+This project was created with the purpose of studying the visual importance of responsive portals and their influence to capture the attention of users.
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ Daniel Ufeli
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/aristides1000/design-teardown/issues).
+Feel free to check the [issues page](https://github.com/aristides1000/building-with-Responsive-design/issues).
 
 ## Show your support
 
