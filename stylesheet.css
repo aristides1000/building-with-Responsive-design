@@ -938,11 +938,19 @@ img {
   margin-left: 5px;
 }
 
+.left-items-bottom-navbar {
+  display: none;
+}
+
 /* tablet screen style */
 @media screen and (min-width: 768px) {
   .top-navbar {
     display: flex;
     justify-content: space-between;
+  }
+
+  .left-items-bottom-navbar {
+    display: block;
   }
 
   .header-page{
