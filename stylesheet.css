@@ -124,6 +124,7 @@ img {
   background-position: 50%;
   flex-direction: column;
   cursor: pointer;
+  position: relative;
 }
 
 .second-article-firts-section {
@@ -157,6 +158,12 @@ img {
 }
 
 .title-firts-article-firts-section {
+  color: white;
+  text-decoration: none;
+  font-family: var(--ubuntu-font);
+}
+
+.title-second-article-firts-section {
   color: white;
   text-decoration: none;
   font-family: var(--ubuntu-font);
@@ -1026,6 +1033,18 @@ img {
   display: none;
 }
 
+.cover-gradient {
+  display: none;
+}
+
+.cover-logo {
+  display: none;
+}
+
+.cover-date {
+  display: none;
+}
+
 /* tablet screen style */
 @media screen and (min-width: 768px) {
   .top-navbar {
@@ -1488,11 +1507,23 @@ img {
     margin: 0 0.5rem;
   }
 
+  .cover-gradient {
+    display: none;
+  }
+
+  .cover-logo {
+    display: none;
+  }
+
+  .cover-date {
+    display: none;
+  }
+
 }
 
 /* desktop screen style */
 @media screen and (min-width: 1024px) {
-  
+
   .logo-navbar {
     display: none;
   }
@@ -1502,6 +1533,53 @@ img {
     grid-template-areas:
     "top-navbar"
     "bottom-navbar";
+  }
+
+  .firts-section {
+    height: 75vh;
+  }
+
+  .cover-gradient {
+    background-image: url(assets/cover-gradient.webp);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    mix-blend-mode: lighten;
+  }
+
+  .cover-logo {
+    background-image: url(assets/tnw.svg);
+    display: block;
+    position: absolute;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 24px;
+    left: 24px;
+    height: 344px;
+    width: 80vh;
+  }
+
+  .cover-date {
+    display: block;
+    position: absolute;
+    right: 24px;
+    top: 1rem;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .title-firts-article-firts-section {
+    font-size: 2.9rem;
+  }
+
+  .title-second-article-firts-section {
+    font-size: 1.5rem;
   }
 
 }
