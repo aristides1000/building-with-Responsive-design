@@ -1492,5 +1492,16 @@ img {
 
 /* desktop screen style */
 @media screen and (min-width: 1024px) {
+  
+  .logo-navbar {
+    display: none;
+  }
+
+  .header-page{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "top-navbar"
+    "bottom-navbar";
+  }
 
 }
