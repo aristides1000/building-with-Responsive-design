@@ -1359,7 +1359,7 @@ img {
 
   .fifth-section {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-rows: auto 3fr 3fr 3fr;
     grid-template-areas:
     "title-fifth-section title-fifth-section title-fifth-section"
     "firts-article-fifth-section second-article-fifth-section third-article-fifth-section"
@@ -1623,6 +1623,53 @@ img {
     "firts-article-fourth-section second-article-fourth-section third-article-fourth-section"
     "fourth-article-fourth-section fifth-article-fourth-section sixth-article-fourth-section"
     "seventh-article-fourth-section eighth-article-fourth-section nineth-article-fourth-section";
+    max-width: 1152px;
+    margin: auto;
+  }
+
+  .text-pic-1-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-2-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-3-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-4-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-5-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-6-firts-article-fourth-section {
+    height: 276px;
+  }
+  
+  .text-pic-7-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-8-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .text-pic-9-firts-article-fourth-section {
+    height: 276px;
+  }
+
+  .fifth-section {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto 3fr 3fr;
+    grid-template-areas:
+    "title-fifth-section title-fifth-section title-fifth-section title-fifth-section"
+    "firts-article-fifth-section second-article-fifth-section third-article-fifth-section fourth-article-fifth-section"
+    "fifth-article-fifth-section sixth-article-fifth-section seventh-article-fifth-section eighth-article-fifth-section";
     max-width: 1152px;
     margin: auto;
   }
