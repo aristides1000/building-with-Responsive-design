@@ -794,6 +794,42 @@ img {
   margin: 0.5rem;
 }
 
+.title-fifth-section {
+  display: flex;
+}
+
+.firts-article-fifth-section {
+  display: flex;
+}
+
+.second-article-fifth-section {
+  display: flex;
+}
+
+.third-article-fifth-section {
+  display: flex;
+}
+
+.fourth-article-fifth-section {
+  display: flex;
+}
+
+.fifth-article-fifth-section {
+  display: flex;
+}
+
+.sixth-article-fifth-section {
+  display: flex;
+}
+
+.seventh-article-fifth-section {
+  display: flex;
+}
+
+.eighth-article-fifth-section {
+  display: flex;
+}
+
 .second-text-title-fifth-section {
   display: none;
   margin-left: auto;
@@ -986,6 +1022,10 @@ img {
   display: none;
 }
 
+.deals-ribbon {
+  display: none;
+}
+
 /* tablet screen style */
 @media screen and (min-width: 768px) {
   .top-navbar {
@@ -1171,42 +1211,42 @@ img {
 
   .picture-1-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-2-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-3-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-4-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-5-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-6-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-7-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .picture-8-article-second-section {
     width: 100%;
-    height: 55%;
+    height: 14vw;
   }
 
   .third-section {
@@ -1296,6 +1336,140 @@ img {
 
   .nineth-article-fourth-section {
     grid-area: nineth-article-fourth-section;
+  }
+
+  .fifth-section {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-areas:
+    "title-fifth-section title-fifth-section title-fifth-section"
+    "firts-article-fifth-section second-article-fifth-section third-article-fifth-section"
+    "fourth-article-fifth-section fifth-article-fifth-section sixth-article-fifth-section"
+    "seventh-article-fifth-section eighth-article-fifth-section .";
+  }
+
+  .title-fifth-section {
+    grid-area: title-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+  }
+
+  .firts-article-fifth-section {
+    grid-area: firts-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .second-article-fifth-section {
+    grid-area: second-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .third-article-fifth-section {
+    grid-area: third-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .fourth-article-fifth-section {
+    grid-area: fourth-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .fifth-article-fifth-section {
+    grid-area: fifth-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .sixth-article-fifth-section {
+    grid-area: sixth-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .seventh-article-fifth-section {
+    grid-area: seventh-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .eighth-article-fifth-section {
+    grid-area: eighth-article-fifth-section;
+    flex-direction: column;
+    padding: 0 40px 40px 0;
+    padding-right: 0;
+    position: relative;
+  }
+
+  .picture-1-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-2-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-3-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-4-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-5-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-6-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-7-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .picture-8-article-fifth-section {
+    width: 100%;
+    height: 21vw;
+  }
+
+  .deals-ribbon {
+    display: block;
+    background-image: url(assets/deals-ribbon.svg);
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+  }
+
+  .text-deals-ribbon {
+    transform: rotate(45deg) translate(33px, 9px);
+    font-weight: bold;
   }
 
 }
