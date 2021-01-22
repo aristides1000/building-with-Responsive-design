@@ -1053,7 +1053,7 @@ img {
 }
 
 .title-firts-1-article-firts-section {
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
   color: white;
   font-family: var(--ubuntu-font);
@@ -1529,13 +1529,13 @@ img {
   .cover-date {
     display: none;
   }
-}
 
-.title-firts-1-article-firts-section {
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: white;
-  font-family: var(--ubuntu-font);
+  .title-firts-1-article-firts-section {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    font-family: var(--ubuntu-font);
+  }
 }
 
 /* desktop screen style */
