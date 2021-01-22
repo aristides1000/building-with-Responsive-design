@@ -98,7 +98,7 @@ img {
 }
 
 .margin-left-auto {
-  float: left;
+  margin-left: auto;
 }
 
 .without-style-button {
@@ -773,7 +773,7 @@ img {
 }
 
 .margin-right-auto {
-  float: right;
+  margin-right: auto;
 }
 
 .color-orange-two-hover:hover {
@@ -846,7 +846,7 @@ img {
 
 .second-text-title-fifth-section {
   display: none;
-  float: left;
+  margin-left: auto;
 }
 
 .picture-1-article-fifth-section {
@@ -935,7 +935,7 @@ img {
   top: 0.3rem;
   text-decoration: line-through;
   font-size: 12px;
-  float: right;
+  margin-right: 4px;
 }
 
 .text-2-info-firts-article-fifth-section {
@@ -1005,7 +1005,7 @@ img {
 .tnw-small-icon {
   height: 9px;
   width: 37.125px;
-  float: right;
+  margin-right: 5px;
 }
 
 .text-1-third-part-footer-page {
@@ -1029,7 +1029,7 @@ img {
 .stackpath-small-icon {
   height: 9px;
   width: 65.25px;
-  float: left;
+  margin-left: 5px;
 }
 
 .left-items-bottom-navbar {
@@ -1057,6 +1057,10 @@ img {
   text-decoration: none;
   color: white;
   font-family: var(--ubuntu-font);
+}
+
+.float-left {
+  float: left;
 }
 
 /* tablet screen style */
