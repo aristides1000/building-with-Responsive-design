@@ -3,7 +3,7 @@
 # News Information Page - The Next Web Clone Clone
 
 > We created a clone of a view of The New York Times portal from scratch.
-![screenshot](./app_screenshot.png)
+![screenshot](app_screenshot.png)
 
 The Next Web Clone
 This web page was project number 6 of the microverse curriculum.
